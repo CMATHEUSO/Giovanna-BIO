@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Automedicação e Uso Inadequado de Antibióticos no Brasil</title>
 
+<!-- Fonte moderna do Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --primary-color-start: #ff7e6b;  /* Salmão mais forte */
+    --primary-color-end: #ffc1b6;    /* Salmão clarinho */
+    --secondary-color: #ff9f85;      /* Tom intermediário */
+    --background-color-start: #fff0ec; /* Fundo claro com tom salmão */
+    --background-color-end: #ffe6df;   /* Fundo mais claro */
+    --text-color: #4a2c26;            /* Marrom escuro para contraste */
+    --accent-color: #ff6f59;
+    --border-radius: 8px;
+    --max-width: 900px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: linear-gradient(135deg, var(--background-color-start), var(--background-color-end));
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(90deg, var(--primary-color-start), var(--primary-color-end));
+    color: white;
+    padding: 2rem 10%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  main {
+    max-width: var(--max-width);
+    margin: 2.5rem auto 4rem;
+    padding: 0 15px;
+  }
+
+  section {
+    background: white;
+    margin-bottom: 3rem;
+    padding: 2rem 2rem 2.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  section:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+
+  h2 {
+    color: var(--accent-color);
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Imagens com bordas arredondadas e sombra */
+  .section-image {
+    display: block;
+    margin: 1.2rem auto 2rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  strong {
+    color: var(--primary-color-start);
+  }
+
+  footer {
+    background: linear-gradient(90deg, var(--primary-color-end), var(--primary-color-start));
+    color: white;
+    text-align: center;
+    padding: 1rem 10%;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* Responsividade */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+
+    main {
+      margin: 1.5rem 15px 3rem;
+    }
+
+    section {
+      padding: 1.5rem 1.2rem 2rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Automedicação e Uso Inadequado de Antibióticos no Brasil</h1>
+</header>
+
+<main>
+  <section id="problemas" aria-label="Problemas da automedicação no Brasil">
+    <h2>Problemas Vivenciados na Realidade</h2>
+    <img src="https://www.ufrgs.br/farmacologica/wp-content/uploads/2018/06/antibiotics-750x393.jpg" />
+    <p>
+      No Brasil, a automedicação e o uso inadequado de antibióticos representam um grave problema de saúde pública, afetando diretamente os mecanismos naturais de defesa do organismo. O uso indiscriminado desses medicamentos pode levar à resistência bacteriana, tornando tratamentos menos eficazes e aumentando o risco de infecções persistentes e complicações.
+    </p>
+    <p>
+      Além disso, a falta de orientação profissional pode causar efeitos colaterais, intoxicações e mascarar sintomas de doenças graves, dificultando o diagnóstico correto.
+    </p>
+  </section>
+
+  <section id="intervencoes" aria-label="Intervenção por educação em saúde">
+    <h2>Intervenção pela Educação em Saúde</h2>
+    <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThsEnA3m7AGo794o_f95djL1EEBEWEsXV5Ag&s " />
+    <p>
+      A educação em saúde é fundamental para mitigar esses problemas, promovendo o uso racional e consciente dos antibióticos. Informar a população sobre os riscos da automedicação e os cuidados necessários fortalece os mecanismos de defesa do organismo e contribui para a prevenção de doenças.
+    </p>
+    <p>
+      Campanhas educativas, orientações em postos de saúde e inclusão do tema em programas escolares são estratégias eficazes para disseminar esse conhecimento.
+    </p>
+  </section>
+
+  <section id="o-que-por-que-como" aria-label="Informações sobre automedicação">
+    <h2>O Que? Por Que? Como? Aplicação e Resultados</h2>
+    <img src=" https://www.aponte.com.br/site/wp-content/uploads/2017/11/exposicao3.jpg" />
+    <p><strong>O que?</strong> A automedicação com antibióticos consiste no uso desses medicamentos sem prescrição ou acompanhamento médico adequado.</p>
+    <p><strong>Por que?</strong> A prática ocorre devido a fatores como facilidade de acesso a medicamentos, falta de informação e crenças populares.</p>
+    <p><strong>Como?</strong> Por meio de ações educativas, regulamentação do comércio de medicamentos e conscientização da população, é possível reduzir o uso inadequado.</p>
+    <p><strong>Aplicação e Resultados:</strong> Programas educativos realizados em comunidades e escolas já mostraram redução na automedicação, melhor entendimento sobre o uso correto de antibióticos e diminuição da resistência bacteriana.</p>
+  </section>
+
+  <section id="dados-cientificos" aria-label="Dados científicos sobre antibióticos">
+    <h2>Dados Científicos Relevantes</h2>
+    <p>
+      Estudos mostram que a resistência bacteriana causada pelo uso inadequado de antibióticos poderá causar até 10 milhões de mortes por ano até 2050, superando muitas doenças infecciosas atuais.
+    </p>
+    <p>
+      Segundo a OMS, cerca de 50% dos antibióticos são usados de forma inadequada globalmente, evidenciando a necessidade urgente de ações educativas e regulamentações mais rígidas.
+    </p>
+  </section>
+
+  <section id="biomedicina-e-o-papel" aria-label="Papel da Biomedicina">
+    <h2>O Papel do Biomédico na Educação em Saúde</h2>
+    <p>
+      O biomédico tem papel fundamental na pesquisa, diagnóstico e educação em saúde, atuando na conscientização sobre o uso racional de medicamentos e no desenvolvimento de estratégias para combater a resistência bacteriana.
+    </p>
+    <p>
+      Além disso, profissionais biomédicos participam ativamente em laboratórios de análises clínicas, microbiologia e farmacologia, contribuindo para a inovação e segurança no uso dos antibióticos.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>Projeto sobre Mecanismos de Agressão e Defesa | Educação em Saúde | Brasil | Desenvolvido por Giovanna Camilly Santana Souza </p>
+</footer>
+</body>
+</html>
